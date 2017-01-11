@@ -98,7 +98,7 @@
     },
     "GITHUB_PASSWORD": {
       "value": "PassedViaPipeBuild"
-    }
+    },
     "CLI_NUGET_FEED_URL": {
       "value": "https://www.myget.org/F/core-setup-testing"
     },
