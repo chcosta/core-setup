@@ -158,7 +158,7 @@
   "path": "\\",
   "type": "build",
   "id": 5073,
-  "name": "naamunds-test_Core-Setup [Ubuntu14.04][x64][master]",
+  "name": "Core-Setup [Ubuntu14.04][x64][master]",
   "url": "https://devdiv.visualstudio.com/DefaultCollection/0bdbc590-a062-4c3f-b0f6-9383f67865ee/_apis/build/Definitions/5073",
   "project": {
     "id": "0bdbc590-a062-4c3f-b0f6-9383f67865ee",
