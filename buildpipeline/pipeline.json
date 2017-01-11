@@ -1,0 +1,36 @@
+{
+  "Repository": "core-setup",
+  "Definitions": {
+    "Path": ".",
+    "Type": "VSTS",
+    "BaseUrl": "https://devdiv.visualstudio.com/DefaultCollection"
+  },
+  "Pipelines": [
+    {
+      "Name": "Trusted-All-Release",
+      "Parameters": {
+        "TreatWarningsAsErrors": "false"
+      },
+      "BuildParameters": {
+        "BuildConfiguration": "Release",
+        "PUBLISH_TO_AZURE_BLOB": "false"
+      },
+      "Definitions": [
+        {
+          "Name": "Core-Setup [CentOS][x64][master]",
+          "Parameters": {
+          },
+          "ReportingParameters": {
+          }
+        },
+        {
+          "Name": "Core-Setup [Ubuntu14.04][x64][master]",
+          "Parameters": {
+          },
+          "ReportingParameters": {
+          }
+        }
+      ]
+    }
+  ]
+}
