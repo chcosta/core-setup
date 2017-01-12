@@ -8,7 +8,7 @@ FROM centos:7.1.1503
 
 # Swap the "fakesystemd" package with the real "systemd" package, because fakesystemd conflicts with openssl-devel.
 # fakesystemd is used instead of systemd in the CentOS Docker image; see http://stackoverflow.com/a/36632668
-RUN yum swap -- remove fakesystemd -- install systemd systemd-libs
+RUN yum -q -y swap -- remove fakesystemd -- install systemd systemd-libs
 
 RUN yum -q -y install deltarpm
 RUN yum -q -y install epel-release
