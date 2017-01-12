@@ -123,7 +123,7 @@
     "type": "GitHub",
     "name": "dotnet/core-setup",
     "url": "https://github.com/dotnet/core-setup.git",
-    "defaultBranch": "naamunds/build-defs",
+    "defaultBranch": "master",
     "clean": "true",
     "checkoutSubmodules": false
   },
@@ -140,8 +140,7 @@
   "path": "\\",
   "type": "build",
   "id": 5075,
-  "name": "Core-Setup [CentOS][x64][master]",
-  "url": "https://devdiv.visualstudio.com/DefaultCollection/0bdbc590-a062-4c3f-b0f6-9383f67865ee/_apis/build/Definitions/5075",
+  "name": "Core-Setup-CentOS-x64-master",
   "project": {
     "id": "0bdbc590-a062-4c3f-b0f6-9383f67865ee",
     "name": "DevDiv",

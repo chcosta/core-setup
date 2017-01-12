@@ -17,14 +17,14 @@
       },
       "Definitions": [
         {
-          "Name": "Core-Setup [CentOS][x64][master]",
+          "Name": "Core-Setup-CentOS-x64-master",
           "Parameters": {
           },
           "ReportingParameters": {
           }
         },
         {
-          "Name": "Core-Setup [Ubuntu14.04][x64][master]",
+          "Name": "Core-Setup-Ubuntu14.04-x64-master",
           "Parameters": {
           },
           "ReportingParameters": {
